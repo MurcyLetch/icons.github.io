@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+.centerdiv{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+a{
+    height:100px;
+    width:100px;
+    background-color: whitesmoke;
+    border-radius:50px;
+    text-align: center;
+    margin:10px;
+    line-height:200px;
+    box-shadow: 1px 4px 2px 2px #95a5a6;
+}
+a i{
+    padding:30px;
+    transition: all 0.3s linear;
+}
+a:hover i{
+    transform:scale(1.4);
+}
+.fa-facebook-f{
+    color:#3498db;
+}
+.fa-instagram{
+    color:#B53471;
+}
+.fa-github-square{
+    color:#2d3436;
+}
+.fa-linkedin-in{
+    color:#0984e3;
+}
+body{
+    background-color: #2f3542;
+}
